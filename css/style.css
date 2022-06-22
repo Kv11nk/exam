@@ -55,4 +55,6 @@ header{
     border-radius: 30px;
 }
 
-
+.menu__practick img{
+    width: 100%;
+}
