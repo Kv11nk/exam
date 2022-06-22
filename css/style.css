@@ -21,15 +21,22 @@ header{
 .content{
     margin-top: 50px;
 }
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .menu li{
     position: relative;
     list-style: none;
 }
-.menu__theory{
-    position: absolute;
+.menu__theory{  
     left: 0;
     top: 20px;
     padding-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 30px;
 }
 .menu__sub-theory{
     display: none;
@@ -43,4 +50,9 @@ header{
 .hide{
     display: none;
 }
+.menu__practick{
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+
 
