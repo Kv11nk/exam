@@ -1,0 +1,46 @@
+header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    width: 80%;
+}
+.content{
+    margin-top: 50px;
+}
+.menu li{
+    position: relative;
+    list-style: none;
+}
+.menu__theory{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    padding-top: 20px;
+}
+.menu__sub-theory{
+    display: none;
+}
+.sub-menu.open{
+    display: block;
+}
+.menu__sub-theory.open{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
